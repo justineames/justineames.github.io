@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Core Template</title>
+
+    <!-- Preload the font to ensure it's ready before the game loads -->
+    <link rel="preload" href="/MouldyCheeseRegular-WyMWG.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+
+    <style>
+        /* Restore working @font-face declaration */
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('/assets/MouldyCheeseRegular-WyMWG-BG_GMbLF.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Keep layout simple like old version */
+        body {
+            font-family: 'CustomFont', sans-serif; /* Keep fallback */
+            background-color: black; /* Keep background color */
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            text-align: center; /* Ensure text is properly centered */
+        }
+
+        /* Prevent any scaling or weird behaviors */
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+            -webkit-user-select: none; /* Disable text selection */
+            -webkit-touch-callout: none; /* Disable iOS magnifying glass */
+            user-select: none;
+            touch-action: manipulation; /* Improves touch response */
+        }
+    </style>
+  <script type="module" crossorigin src="/assets/index-YaI3bSVB.js"></script>
+</head>
+<body>
+    <div id="app">
+    </div>
+
+    <script>
+        // Prevent long-press magnifying glass and context menu on iOS
+        document.addEventListener('touchstart', (event) => {
+            if (event.touches.length > 1) {
+                event.preventDefault(); // Prevents multi-touch gestures triggering loupe
+            }
+        }, { passive: false });
+
+        document.addEventListener('contextmenu', (event) => {
+            event.preventDefault(); // Prevents the long-press context menu
+        });
+    </script>
+</body>
+</html>
