@@ -1,0 +1,150 @@
+{
+    "tile_width": 4,
+    "tile_height": 2,
+    "tiles": [
+        {
+            "original_position": [
+                0,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                2,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                256,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                262,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                512,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                522,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                768,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                782,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                0,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1042,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                256,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1302,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                512,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1562,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                768,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                2,
+                262
+            ]
+        }
+    ]
+}
