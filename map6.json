@@ -19,30 +19,80 @@
          "objects":[
                 {
                  "height":384,
-                 "id":12,
-                 "name":"finish",
+                 "id":107,
+                 "name":"camera1",
+                 "properties":[
+                        {
+                         "name":"Axis",
+                         "type":"string",
+                         "value":"vertical"
+                        }],
                  "rotation":0,
-                 "type":"ZONE",
+                 "type":"CAMERAZONE",
                  "visible":true,
-                 "width":96,
-                 "x":1664,
+                 "width":1920,
+                 "x":0,
                  "y":64
                 }, 
                 {
                  "height":0,
-                 "id":58,
+                 "id":108,
                  "name":"start",
                  "point":true,
                  "rotation":0,
                  "type":"POINT",
                  "visible":true,
                  "width":0,
-                 "x":160,
-                 "y":288
+                 "x":272,
+                 "y":256
+                }, 
+                {
+                 "height":256,
+                 "id":109,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":128,
+                 "x":0,
+                 "y":128
+                }, 
+                {
+                 "height":128,
+                 "id":110,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":1248,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "height":128,
+                 "id":111,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":1248,
+                 "x":0,
+                 "y":384
+                }, 
+                {
+                 "height":128,
+                 "id":112,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":128,
+                 "x":2112,
+                 "y":128
                 }, 
                 {
                  "height":0,
-                 "id":59,
+                 "id":113,
                  "name":"finish_bar2",
                  "point":true,
                  "properties":[
@@ -60,12 +110,12 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1664,
-                 "y":448
+                 "x":1952,
+                 "y":256
                 }, 
                 {
                  "height":0,
-                 "id":60,
+                 "id":114,
                  "name":"finish_bar1",
                  "point":true,
                  "properties":[
@@ -88,139 +138,336 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1664,
-                 "y":64
-                }, 
-                {
-                 "height":512,
-                 "id":66,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":64,
-                 "x":1792,
-                 "y":0
-                }, 
-                {
-                 "height":512,
-                 "id":69,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":96,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "height":96,
-                 "id":79,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":1312,
-                 "x":96,
-                 "y":416
+                 "x":1952,
+                 "y":128
                 }, 
                 {
                  "height":64,
-                 "id":80,
+                 "id":115,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":384,
-                 "x":1408,
-                 "y":448
+                 "width":32,
+                 "x":256,
+                 "y":128
                 }, 
                 {
-                 "height":160,
-                 "id":82,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":1312,
-                 "x":96,
-                 "y":0
-                }, 
-                {
-                 "height":64,
-                 "id":83,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":384,
-                 "x":1408,
-                 "y":0
-                }, 
-                {
-                 "height":0,
-                 "id":84,
-                 "name":"top-path",
-                 "polyline":[
-                        {
-                         "x":-288,
-                         "y":96
-                        }, 
-                        {
-                         "x":-30.7618,
-                         "y":96
-                        }, 
-                        {
-                         "x":224,
-                         "y":96
-                        }, 
-                        {
-                         "x":480,
-                         "y":96
-                        }, 
-                        {
-                         "x":736,
-                         "y":96
-                        }],
-                 "rotation":0,
-                 "type":"PATH",
-                 "visible":true,
-                 "width":0,
-                 "x":480,
-                 "y":32
-                }, 
-                {
-                 "height":48,
-                 "id":88,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":160,
-                 "x":96,
-                 "y":368
-                }, 
-                {
-                 "height":48,
-                 "id":89,
+                 "height":32,
+                 "id":116,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
                  "width":128,
-                 "x":1152,
+                 "x":416,
+                 "y":352
+                }, 
+                {
+                 "height":0,
+                 "id":127,
+                 "name":"star",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"STAR"
+                        }],
+                 "rotation":0,
+                 "type":"PICKUP",
+                 "visible":true,
+                 "width":0,
+                 "x":704,
+                 "y":176
+                }, 
+                {
+                 "height":128,
+                 "id":137,
+                 "name":"finish",
+                 "rotation":0,
+                 "type":"ZONE",
+                 "visible":true,
+                 "width":128,
+                 "x":1952,
+                 "y":128
+                }, 
+                {
+                 "height":0,
+                 "id":138,
+                 "name":"cloud",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloud"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":384,
+                 "y":809
+                }, 
+                {
+                 "height":0,
+                 "id":139,
+                 "name":"cloud_box",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloudbox"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":304,
+                 "y":784
+                }, 
+                {
+                 "height":32,
+                 "id":144,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":128,
+                 "x":128,
+                 "y":352
+                }, 
+                {
+                 "height":32,
+                 "id":145,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":128,
+                 "x":128,
+                 "y":128
+                }, 
+                {
+                 "height":192,
+                 "id":146,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":32,
+                 "x":128,
+                 "y":160
+                }, 
+                {
+                 "height":96,
+                 "id":150,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":32,
+                 "x":1024,
+                 "y":288
+                }, 
+                {
+                 "height":64,
+                 "id":153,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":32,
+                 "x":1024,
+                 "y":128
+                }, 
+                {
+                 "height":64,
+                 "id":154,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":32,
+                 "x":992,
+                 "y":320
+                }, 
+                {
+                 "height":32,
+                 "id":156,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":32,
+                 "x":1056,
+                 "y":128
+                }, 
+                {
+                 "height":64,
+                 "id":157,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":64,
+                 "x":864,
+                 "y":128
+                }, 
+                {
+                 "height":32,
+                 "id":158,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":64,
+                 "x":960,
+                 "y":128
+                }, 
+                {
+                 "height":0,
+                 "id":159,
+                 "name":"static-spikeball",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"spikeball"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"SPIKEBALL"
+                        }],
+                 "rotation":0,
+                 "type":"ENEMY",
+                 "visible":true,
+                 "width":0,
+                 "x":512,
+                 "y":384
+                }, 
+                {
+                 "height":64,
+                 "id":160,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":32,
+                 "x":256,
+                 "y":320
+                }, 
+                {
+                 "height":0,
+                 "id":163,
+                 "name":"static-spikeball",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"spikeballmedium"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"SPIKEBALL"
+                        }],
+                 "rotation":0,
+                 "type":"ENEMY",
+                 "visible":true,
+                 "width":0,
+                 "x":592,
+                 "y":384
+                }, 
+                {
+                 "height":32,
+                 "id":164,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":128,
+                 "x":1056,
+                 "y":352
+                }, 
+                {
+                 "height":96,
+                 "id":166,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":576,
+                 "x":1248,
+                 "y":0
+                }, 
+                {
+                 "height":96,
+                 "id":167,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":320,
+                 "x":1248,
+                 "y":416
+                }, 
+                {
+                 "height":16,
+                 "id":168,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":56,
+                 "x":544,
                  "y":368
                 }, 
                 {
                  "height":0,
-                 "id":90,
+                 "id":169,
+                 "name":"path1",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":48
+                        }, 
+                        {
+                         "x":0,
+                         "y":288
+                        }],
+                 "rotation":0,
+                 "type":"PATH",
+                 "visible":true,
+                 "width":0,
+                 "x":1392,
+                 "y":192
+                }, 
+                {
+                 "height":0,
+                 "id":170,
                  "name":"moving-spikeball1",
                  "point":true,
                  "properties":[
                         {
                          "name":"Mode",
                          "type":"string",
-                         "value":"loop"
+                         "value":"oscillate"
                         }, 
                         {
                          "name":"Node",
@@ -230,50 +477,17 @@
                         {
                          "name":"Path",
                          "type":"string",
-                         "value":"bottom-path"
+                         "value":"path1"
                         }, 
                         {
                          "name":"Speed",
-                         "type":"string",
-                         "value":"4"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"SPIKEBALL"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":48,
-                 "y":664
-                }, 
-                {
-                 "height":0,
-                 "id":91,
-                 "name":"moving-spikeball4",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Mode",
-                         "type":"string",
-                         "value":"loop"
-                        }, 
-                        {
-                         "name":"Node",
                          "type":"string",
                          "value":"3"
                         }, 
                         {
-                         "name":"Path",
+                         "name":"Texture",
                          "type":"string",
-                         "value":"bottom-path"
-                        }, 
-                        {
-                         "name":"Speed",
-                         "type":"string",
-                         "value":"4"
+                         "value":"spikeballmedium"
                         }, 
                         {
                          "name":"Type",
@@ -284,127 +498,86 @@
                  "type":"ENEMY",
                  "visible":true,
                  "width":0,
-                 "x":344,
-                 "y":640
+                 "x":1392,
+                 "y":536
+                }, 
+                {
+                 "height":160,
+                 "id":171,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":24,
+                 "x":1380,
+                 "y":256
+                }, 
+                {
+                 "height":32,
+                 "id":172,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":96,
+                 "x":1344,
+                 "y":384
                 }, 
                 {
                  "height":0,
-                 "id":92,
+                 "id":173,
+                 "name":"static-spikeball",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"spikeballmedium"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"SPIKEBALL"
+                        }],
+                 "rotation":0,
+                 "type":"ENEMY",
+                 "visible":true,
+                 "width":0,
+                 "x":864,
+                 "y":192
+                }, 
+                {
+                 "height":160,
+                 "id":174,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":24,
+                 "x":1604,
+                 "y":96
+                }, 
+                {
+                 "height":64,
+                 "id":175,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":36,
+                 "x":1568,
+                 "y":96
+                }, 
+                {
+                 "height":0,
+                 "id":176,
                  "name":"moving-spikeball2",
                  "point":true,
                  "properties":[
                         {
                          "name":"Mode",
                          "type":"string",
-                         "value":"loop"
-                        }, 
-                        {
-                         "name":"Node",
-                         "type":"string",
-                         "value":"1"
-                        }, 
-                        {
-                         "name":"Path",
-                         "type":"string",
-                         "value":"bottom-path"
-                        }, 
-                        {
-                         "name":"Speed",
-                         "type":"string",
-                         "value":"4"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"SPIKEBALL"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":168,
-                 "y":656
-                }, 
-                {
-                 "height":0,
-                 "id":93,
-                 "name":"moving-spikeball3",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Mode",
-                         "type":"string",
-                         "value":"loop"
-                        }, 
-                        {
-                         "name":"Node",
-                         "type":"string",
-                         "value":"2"
-                        }, 
-                        {
-                         "name":"Path",
-                         "type":"string",
-                         "value":"bottom-path"
-                        }, 
-                        {
-                         "name":"Speed",
-                         "type":"string",
-                         "value":"4"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"SPIKEBALL"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":248,
-                 "y":640
-                }, 
-                {
-                 "height":0,
-                 "id":94,
-                 "name":"bottom-path",
-                 "polyline":[
-                        {
-                         "x":288,
-                         "y":96
-                        }, 
-                        {
-                         "x":30.7618,
-                         "y":96
-                        }, 
-                        {
-                         "x":-224,
-                         "y":96
-                        }, 
-                        {
-                         "x":-480,
-                         "y":96
-                        }, 
-                        {
-                         "x":-736,
-                         "y":96
-                        }],
-                 "rotation":0,
-                 "type":"PATH",
-                 "visible":true,
-                 "width":0,
-                 "x":928,
-                 "y":352
-                }, 
-                {
-                 "height":0,
-                 "id":95,
-                 "name":"moving-spikeball5",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Mode",
-                         "type":"string",
-                         "value":"loop"
+                         "value":"oscillate"
                         }, 
                         {
                          "name":"Node",
@@ -414,50 +587,17 @@
                         {
                          "name":"Path",
                          "type":"string",
-                         "value":"top-path"
+                         "value":"path2"
                         }, 
                         {
                          "name":"Speed",
-                         "type":"string",
-                         "value":"1.5"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"SPIKEBALL"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":616,
-                 "y":672
-                }, 
-                {
-                 "height":0,
-                 "id":96,
-                 "name":"moving-spikeball8",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Mode",
-                         "type":"string",
-                         "value":"loop"
-                        }, 
-                        {
-                         "name":"Node",
                          "type":"string",
                          "value":"3"
                         }, 
                         {
-                         "name":"Path",
+                         "name":"Texture",
                          "type":"string",
-                         "value":"top-path"
-                        }, 
-                        {
-                         "name":"Speed",
-                         "type":"string",
-                         "value":"1.5"
+                         "value":"spikeballmedium"
                         }, 
                         {
                          "name":"Type",
@@ -468,162 +608,326 @@
                  "type":"ENEMY",
                  "visible":true,
                  "width":0,
-                 "x":912,
-                 "y":648
+                 "x":1616,
+                 "y":-16
                 }, 
                 {
                  "height":0,
-                 "id":97,
-                 "name":"moving-spikeball6",
-                 "point":true,
-                 "properties":[
+                 "id":177,
+                 "name":"path2",
+                 "polyline":[
                         {
-                         "name":"Mode",
-                         "type":"string",
-                         "value":"loop"
+                         "x":0,
+                         "y":-48
                         }, 
                         {
-                         "name":"Node",
-                         "type":"string",
-                         "value":"1"
-                        }, 
-                        {
-                         "name":"Path",
-                         "type":"string",
-                         "value":"top-path"
-                        }, 
-                        {
-                         "name":"Speed",
-                         "type":"string",
-                         "value":"1.5"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"SPIKEBALL"
+                         "x":0,
+                         "y":-288
                         }],
                  "rotation":0,
-                 "type":"ENEMY",
+                 "type":"PATH",
                  "visible":true,
                  "width":0,
-                 "x":736,
-                 "y":664
+                 "x":1616,
+                 "y":320
                 }, 
                 {
-                 "height":0,
-                 "id":98,
-                 "name":"moving-spikeball7",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Mode",
-                         "type":"string",
-                         "value":"loop"
-                        }, 
-                        {
-                         "name":"Node",
-                         "type":"string",
-                         "value":"2"
-                        }, 
-                        {
-                         "name":"Path",
-                         "type":"string",
-                         "value":"top-path"
-                        }, 
-                        {
-                         "name":"Speed",
-                         "type":"string",
-                         "value":"1.5"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"SPIKEBALL"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":816,
-                 "y":648
-                }, 
-                {
-                 "height":48,
-                 "id":99,
+                 "height":32,
+                 "id":178,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
                  "width":128,
-                 "x":1152,
-                 "y":160
+                 "x":1328,
+                 "y":96
                 }, 
                 {
-                 "height":48,
-                 "id":100,
+                 "height":128,
+                 "id":179,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":160,
-                 "x":96,
-                 "y":160
+                 "width":352,
+                 "x":1568,
+                 "y":384
                 }, 
                 {
-                 "height":448,
-                 "id":103,
-                 "name":"camera",
-                 "properties":[
-                        {
-                         "name":"Axis",
-                         "type":"string",
-                         "value":"vertical"
-                        }],
+                 "height":128,
+                 "id":180,
+                 "name":"collision",
                  "rotation":0,
-                 "type":"CAMERAZONE",
+                 "type":"COLLISION",
                  "visible":true,
-                 "width":1208,
-                 "x":-56,
-                 "y":32
-                }, 
-                {
-                 "height":512,
-                 "id":104,
-                 "name":"camera",
-                 "properties":[
-                        {
-                         "name":"Axis",
-                         "type":"string",
-                         "value":"vertical"
-                        }],
-                 "rotation":0,
-                 "type":"CAMERAZONE",
-                 "visible":true,
-                 "width":704,
-                 "x":1152,
+                 "width":416,
+                 "x":1824,
                  "y":0
                 }, 
                 {
-                 "height":48,
-                 "id":105,
+                 "height":256,
+                 "id":181,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":160,
-                 "x":640,
-                 "y":368
+                 "width":320,
+                 "x":1920,
+                 "y":256
+                }, 
+                {
+                 "height":96,
+                 "id":182,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":64,
+                 "x":1856,
+                 "y":288
+                }, 
+                {
+                 "height":64,
+                 "id":183,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":64,
+                 "x":672,
+                 "y":224
                 }, 
                 {
                  "height":48,
-                 "id":106,
+                 "id":184,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":160,
-                 "x":640,
-                 "y":160
+                 "width":32,
+                 "x":928,
+                 "y":128
+                }, 
+                {
+                 "height":32,
+                 "id":187,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":68,
+                 "x":1628,
+                 "y":96
+                }, 
+                {
+                 "height":0,
+                 "id":188,
+                 "name":"star",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"STAR"
+                        }],
+                 "rotation":0,
+                 "type":"PICKUP",
+                 "visible":true,
+                 "width":0,
+                 "x":992,
+                 "y":240
+                }, 
+                {
+                 "height":0,
+                 "id":189,
+                 "name":"star",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"STAR"
+                        }],
+                 "rotation":0,
+                 "type":"PICKUP",
+                 "visible":true,
+                 "width":0,
+                 "x":1216,
+                 "y":256
+                }, 
+                {
+                 "height":0,
+                 "id":190,
+                 "name":"star",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"STAR"
+                        }],
+                 "rotation":0,
+                 "type":"PICKUP",
+                 "visible":true,
+                 "width":0,
+                 "x":1504,
+                 "y":256
+                }, 
+                {
+                 "height":0,
+                 "id":191,
+                 "name":"star",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"STAR"
+                        }],
+                 "rotation":0,
+                 "type":"PICKUP",
+                 "visible":true,
+                 "width":0,
+                 "x":1760,
+                 "y":224
+                }, 
+                {
+                 "height":0,
+                 "id":192,
+                 "name":"cloud",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloud"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":520,
+                 "y":224
+                }, 
+                {
+                 "height":0,
+                 "id":193,
+                 "name":"cloud_box",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloudbox"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":448,
+                 "y":192
+                }, 
+                {
+                 "height":0,
+                 "id":194,
+                 "name":"cloud",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloud"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1352,
+                 "y":288
+                }, 
+                {
+                 "height":0,
+                 "id":195,
+                 "name":"cloud_box",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloudbox"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1280,
+                 "y":320
+                }, 
+                {
+                 "height":0,
+                 "id":196,
+                 "name":"cloud",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloud"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1880,
+                 "y":328
+                }, 
+                {
+                 "height":0,
+                 "id":197,
+                 "name":"cloud_box",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloudbox"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1952,
+                 "y":328
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -632,7 +936,7 @@
          "y":0
         }],
  "nextlayerid":7,
- "nextobjectid":107,
+ "nextobjectid":198,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
@@ -641,5 +945,5 @@
  "tilewidth":32,
  "type":"map",
  "version":"1.10",
- "width":64
+ "width":80
 }

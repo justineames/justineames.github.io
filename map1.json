@@ -1,5 +1,5 @@
 { "compressionlevel":-1,
- "height":16,
+ "height":32,
  "infinite":false,
  "layers":[
         {
@@ -37,30 +37,19 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":657,
-                 "y":204
+                 "x":720,
+                 "y":520
                 }, 
                 {
-                 "height":384,
-                 "id":12,
-                 "name":"finish",
-                 "rotation":0,
-                 "type":"ZONE",
-                 "visible":true,
-                 "width":107,
-                 "x":792,
-                 "y":568
-                }, 
-                {
-                 "height":64,
+                 "height":320,
                  "id":46,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":1024,
-                 "x":0,
-                 "y":448
+                 "width":1984,
+                 "x":64,
+                 "y":704
                 }, 
                 {
                  "height":512,
@@ -75,18 +64,18 @@
                  "rotation":0,
                  "type":"CAMERAZONE",
                  "visible":true,
-                 "width":1024,
-                 "x":0,
-                 "y":0
+                 "width":1536,
+                 "x":56,
+                 "y":304
                 }, 
                 {
-                 "height":512,
+                 "height":1024,
                  "id":49,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":64,
+                 "width":128,
                  "x":0,
                  "y":0
                 }, 
@@ -119,18 +108,18 @@
                  "type":"COLLISION",
                  "visible":true,
                  "width":0,
-                 "x":64,
-                 "y":64
+                 "x":0,
+                 "y":416
                 }, 
                 {
-                 "height":64,
+                 "height":416,
                  "id":54,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":1024,
-                 "x":0,
+                 "width":1984,
+                 "x":64,
                  "y":0
                 }, 
                 {
@@ -154,19 +143,8 @@
                  "type":"COLLISION",
                  "visible":true,
                  "width":0,
-                 "x":64,
-                 "y":160
-                }, 
-                {
-                 "height":96,
-                 "id":57,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":448,
-                 "x":64,
-                 "y":352
+                 "x":128,
+                 "y":512
                 }, 
                 {
                  "height":0,
@@ -177,12 +155,154 @@
                  "type":"POINT",
                  "visible":true,
                  "width":0,
-                 "x":120,
-                 "y":272
+                 "x":352,
+                 "y":640
                 }, 
                 {
                  "height":0,
-                 "id":59,
+                 "id":61,
+                 "name":"cloud_box",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloudbox"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":640,
+                 "y":495
+                }, 
+                {
+                 "height":0,
+                 "id":62,
+                 "name":"cloud",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloud"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1072,
+                 "y":584
+                }, 
+                {
+                 "height":0,
+                 "id":63,
+                 "name":"cloud_box",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloudbox"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1192,
+                 "y":624
+                }, 
+                {
+                 "height":512,
+                 "id":81,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":512,
+                 "x":1536,
+                 "y":256
+                }, 
+                {
+                 "height":0,
+                 "id":92,
+                 "name":"billboard",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"BILLBOARD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":576,
+                 "y":608
+                }, 
+                {
+                 "height":32,
+                 "id":93,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":128,
+                 "x":128,
+                 "y":672
+                }, 
+                {
+                 "height":96,
+                 "id":94,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":256,
+                 "x":1280,
+                 "y":672
+                }, 
+                {
+                 "height":96,
+                 "id":95,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":256,
+                 "x":1280,
+                 "y":384
+                }, 
+                {
+                 "height":192,
+                 "id":96,
+                 "name":"finish",
+                 "rotation":0,
+                 "type":"ZONE",
+                 "visible":true,
+                 "width":107,
+                 "x":1312,
+                 "y":480
+                }, 
+                {
+                 "height":0,
+                 "id":97,
                  "name":"finish_bar2",
                  "point":true,
                  "properties":[
@@ -200,12 +320,12 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":790,
-                 "y":433
+                 "x":1312,
+                 "y":672
                 }, 
                 {
                  "height":0,
-                 "id":60,
+                 "id":98,
                  "name":"finish_bar1",
                  "point":true,
                  "properties":[
@@ -228,35 +348,12 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":790,
-                 "y":80
+                 "x":1312,
+                 "y":480
                 }, 
                 {
                  "height":0,
-                 "id":61,
-                 "name":"cloud_box",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Texture",
-                         "type":"string",
-                         "value":"cloudbox"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"CLOUD"
-                        }],
-                 "rotation":0,
-                 "type":"DECORATION",
-                 "visible":true,
-                 "width":0,
-                 "x":576,
-                 "y":275
-                }, 
-                {
-                 "height":0,
-                 "id":62,
+                 "id":99,
                  "name":"cloud",
                  "point":true,
                  "properties":[
@@ -274,12 +371,12 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1023,
-                 "y":328
+                 "x":1744,
+                 "y":592
                 }, 
                 {
                  "height":0,
-                 "id":63,
+                 "id":100,
                  "name":"cloud_box",
                  "point":true,
                  "properties":[
@@ -297,12 +394,12 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1111,
-                 "y":256
+                 "x":1640,
+                 "y":560
                 }, 
                 {
                  "height":0,
-                 "id":66,
+                 "id":101,
                  "name":"star",
                  "point":true,
                  "properties":[
@@ -315,12 +412,12 @@
                  "type":"PICKUP",
                  "visible":true,
                  "width":0,
-                 "x":320,
-                 "y":592
+                 "x":800,
+                 "y":608
                 }, 
                 {
                  "height":0,
-                 "id":67,
+                 "id":102,
                  "name":"star",
                  "point":true,
                  "properties":[
@@ -333,418 +430,26 @@
                  "type":"PICKUP",
                  "visible":true,
                  "width":0,
-                 "x":480,
-                 "y":592
-                }, 
-                {
-                 "height":0,
-                 "id":68,
-                 "name":"star",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"STAR"
-                        }],
-                 "rotation":0,
-                 "type":"PICKUP",
-                 "visible":true,
-                 "width":0,
-                 "x":640,
-                 "y":592
-                }, 
-                {
-                 "height":0,
-                 "id":69,
-                 "name":"mine_end1",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Index",
-                         "type":"string",
-                         "value":"end"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"MOVINGMINE"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":328,
-                 "y":688
-                }, 
-                {
-                 "height":0,
-                 "id":70,
-                 "name":"mine_start1",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"EndName",
-                         "type":"string",
-                         "value":"mine_end1"
-                        }, 
-                        {
-                         "name":"Index",
-                         "type":"string",
-                         "value":"start"
-                        }, 
-                        {
-                         "name":"MoveDelay",
-                         "type":"string",
-                         "value":"5000"
-                        }, 
-                        {
-                         "name":"MoveTime",
-                         "type":"string",
-                         "value":"1000"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"MOVINGMINE"
-                        }, 
-                        {
-                         "name":"WarnTime",
-                         "type":"string",
-                         "value":"3000"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":328,
-                 "y":864
-                }, 
-                {
-                 "height":0,
-                 "id":71,
-                 "name":"mine_end2",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Index",
-                         "type":"string",
-                         "value":"end"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"MOVINGMINE"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":456,
-                 "y":688
-                }, 
-                {
-                 "height":0,
-                 "id":72,
-                 "name":"mine_start2",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"EndName",
-                         "type":"string",
-                         "value":"mine_end2"
-                        }, 
-                        {
-                         "name":"Index",
-                         "type":"string",
-                         "value":"start"
-                        }, 
-                        {
-                         "name":"MoveDelay",
-                         "type":"string",
-                         "value":"7500"
-                        }, 
-                        {
-                         "name":"MoveTime",
-                         "type":"string",
-                         "value":"1500"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"MOVINGMINE"
-                        }, 
-                        {
-                         "name":"WarnRange",
-                         "type":"string",
-                         "value":"64"
-                        }, 
-                        {
-                         "name":"WarnTime",
-                         "type":"string",
-                         "value":"1000"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":456,
-                 "y":864
-                }, 
-                {
-                 "height":96,
-                 "id":73,
-                 "name":"lava",
-                 "properties":[
-                        {
-                         "name":"Delay",
-                         "type":"string",
-                         "value":"2000"
-                        }, 
-                        {
-                         "name":"RiseAmount",
-                         "type":"string",
-                         "value":"200"
-                        }, 
-                        {
-                         "name":"Speed",
-                         "type":"string",
-                         "value":"1"
-                        }, 
-                        {
-                         "name":"TriggerZone",
-                         "type":"string",
-                         "value":"trigger"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"LAVABLOCK"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":96,
-                 "x":64,
-                 "y":656
-                }, 
-                {
-                 "height":0,
-                 "id":75,
-                 "name":"billboard",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"BILLBOARD"
-                        }],
-                 "rotation":0,
-                 "type":"DECORATION",
-                 "visible":true,
-                 "width":0,
-                 "x":704,
-                 "y":720
-                }, 
-                {
-                 "height":512,
-                 "id":81,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":64,
                  "x":960,
-                 "y":0
+                 "y":480
                 }, 
                 {
                  "height":0,
-                 "id":84,
-                 "name":"impulse-gate",
+                 "id":103,
+                 "name":"star",
                  "point":true,
                  "properties":[
                         {
-                         "name":"Angle",
-                         "type":"string",
-                         "value":"90"
-                        }, 
-                        {
-                         "name":"Duration",
-                         "type":"string",
-                         "value":"250"
-                        }, 
-                        {
-                         "name":"Impulse",
-                         "type":"string",
-                         "value":"20"
-                        }, 
-                        {
                          "name":"Type",
                          "type":"string",
-                         "value":"IMPULSEGATE"
+                         "value":"STAR"
                         }],
                  "rotation":0,
-                 "type":"ENEMY",
+                 "type":"PICKUP",
                  "visible":true,
                  "width":0,
-                 "x":608,
-                 "y":128
-                }, 
-                {
-                 "height":0,
-                 "id":86,
-                 "name":"impulse-gate",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Angle",
-                         "type":"string",
-                         "value":"315"
-                        }, 
-                        {
-                         "name":"Duration",
-                         "type":"string",
-                         "value":"250"
-                        }, 
-                        {
-                         "name":"Impulse",
-                         "type":"string",
-                         "value":"20"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"IMPULSEGATE"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":608,
-                 "y":384
-                }, 
-                {
-                 "height":0,
-                 "id":87,
-                 "name":"impulse-gate",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Angle",
-                         "type":"string",
-                         "value":"180"
-                        }, 
-                        {
-                         "name":"Duration",
-                         "type":"string",
-                         "value":"250"
-                        }, 
-                        {
-                         "name":"Impulse",
-                         "type":"string",
-                         "value":"20"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"IMPULSEGATE"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":896,
-                 "y":128
-                }, 
-                {
-                 "height":0,
-                 "id":88,
-                 "name":"impulse-gate",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Angle",
-                         "type":"string",
-                         "value":"270"
-                        }, 
-                        {
-                         "name":"Duration",
-                         "type":"string",
-                         "value":"250"
-                        }, 
-                        {
-                         "name":"Impulse",
-                         "type":"string",
-                         "value":"20"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"IMPULSEGATE"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":896,
-                 "y":384
-                }, 
-                {
-                 "height":216,
-                 "id":89,
-                 "name":"trigger",
-                 "rotation":0,
-                 "type":"ZONE",
-                 "visible":true,
-                 "width":107,
-                 "x":224,
-                 "y":152
-                }, 
-                {
-                 "height":0,
-                 "id":90,
-                 "name":"spikeball",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Texture",
-                         "type":"string",
-                         "value":"spikeball"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"SPIKEBALL"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":480,
-                 "y":320
-                }, 
-                {
-                 "height":0,
-                 "id":91,
-                 "name":"spikeball",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Texture",
-                         "type":"string",
-                         "value":"spikeballsmall"
-                        }, 
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"SPIKEBALL"
-                        }],
-                 "rotation":0,
-                 "type":"ENEMY",
-                 "visible":true,
-                 "width":0,
-                 "x":416,
-                 "y":256
+                 "x":1120,
+                 "y":608
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -753,7 +458,7 @@
          "y":0
         }],
  "nextlayerid":7,
- "nextobjectid":92,
+ "nextobjectid":104,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
@@ -762,5 +467,5 @@
  "tilewidth":32,
  "type":"map",
  "version":"1.10",
- "width":32
+ "width":64
 }

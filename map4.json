@@ -16,11 +16,11 @@
                  "type":"POINT",
                  "visible":true,
                  "width":0,
-                 "x":320,
-                 "y":224
+                 "x":256,
+                 "y":208
                 }, 
                 {
-                 "height":320,
+                 "height":192,
                  "id":12,
                  "name":"finish",
                  "rotation":0,
@@ -28,18 +28,7 @@
                  "visible":true,
                  "width":128,
                  "x":1408,
-                 "y":96
-                }, 
-                {
-                 "height":96,
-                 "id":45,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":64,
-                 "x":640,
-                 "y":96
+                 "y":160
                 }, 
                 {
                  "height":96,
@@ -48,107 +37,9 @@
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":1728,
+                 "width":440,
                  "x":0,
                  "y":416
-                }, 
-                {
-                 "height":96,
-                 "id":47,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":1728,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "height":96,
-                 "id":55,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":64,
-                 "x":512,
-                 "y":320
-                }, 
-                {
-                 "height":96,
-                 "id":56,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":64,
-                 "x":768,
-                 "y":320
-                }, 
-                {
-                 "height":32,
-                 "id":58,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":192,
-                 "x":576,
-                 "y":384
-                }, 
-                {
-                 "height":0,
-                 "id":59,
-                 "name":"star1",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"STAR"
-                        }],
-                 "rotation":0,
-                 "type":"PICKUP",
-                 "visible":true,
-                 "width":0,
-                 "x":544,
-                 "y":256
-                }, 
-                {
-                 "height":0,
-                 "id":60,
-                 "name":"star3",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"STAR"
-                        }],
-                 "rotation":0,
-                 "type":"PICKUP",
-                 "visible":true,
-                 "width":0,
-                 "x":672,
-                 "y":304
-                }, 
-                {
-                 "height":0,
-                 "id":61,
-                 "name":"star3",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"Type",
-                         "type":"string",
-                         "value":"STAR"
-                        }],
-                 "rotation":0,
-                 "type":"PICKUP",
-                 "visible":true,
-                 "width":0,
-                 "x":1152,
-                 "y":256
                 }, 
                 {
                  "height":448,
@@ -163,20 +54,9 @@
                  "rotation":0,
                  "type":"CAMERAZONE",
                  "visible":true,
-                 "width":1728,
-                 "x":0,
+                 "width":1608,
+                 "x":120,
                  "y":32
-                }, 
-                {
-                 "height":128,
-                 "id":71,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":64,
-                 "x":288,
-                 "y":288
                 }, 
                 {
                  "height":320,
@@ -185,42 +65,9 @@
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":64,
+                 "width":192,
                  "x":0,
                  "y":96
-                }, 
-                {
-                 "height":32,
-                 "id":88,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"FATAL",
-                 "visible":true,
-                 "width":224,
-                 "x":64,
-                 "y":384
-                }, 
-                {
-                 "height":64,
-                 "id":89,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"FATAL",
-                 "visible":true,
-                 "width":160,
-                 "x":352,
-                 "y":352
-                }, 
-                {
-                 "height":32,
-                 "id":90,
-                 "name":"collision",
-                 "rotation":0,
-                 "type":"FATAL",
-                 "visible":true,
-                 "width":64,
-                 "x":64,
-                 "y":352
                 }, 
                 {
                  "height":32,
@@ -229,103 +76,339 @@
                  "rotation":0,
                  "type":"FATAL",
                  "visible":true,
-                 "width":64,
-                 "x":640,
-                 "y":192
-                }, 
-                {
-                 "height":0,
-                 "id":93,
-                 "name":"collision",
-                 "polygon":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":64,
-                         "y":32
-                        }, 
-                        {
-                         "x":160,
-                         "y":32
-                        }, 
-                        {
-                         "x":192,
-                         "y":0
-                        }, 
-                        {
-                         "x":192,
-                         "y":-32
-                        }, 
-                        {
-                         "x":0,
-                         "y":-32
-                        }],
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":0,
-                 "x":1024,
-                 "y":192
-                }, 
-                {
-                 "height":0,
-                 "id":94,
-                 "name":"collision",
-                 "polygon":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":64,
-                         "y":-32
-                        }, 
-                        {
-                         "x":160,
-                         "y":-32
-                        }, 
-                        {
-                         "x":192,
-                         "y":0
-                        }, 
-                        {
-                         "x":192,
-                         "y":32
-                        }, 
-                        {
-                         "x":0,
-                         "y":32
-                        }],
-                 "rotation":0,
-                 "type":"COLLISION",
-                 "visible":true,
-                 "width":0,
-                 "x":1024,
+                 "width":80,
+                 "x":920,
                  "y":320
                 }, 
                 {
-                 "height":32,
-                 "id":95,
-                 "name":"fatal",
+                 "height":160,
+                 "id":99,
+                 "name":"collision",
                  "rotation":0,
-                 "type":"FATAL",
+                 "type":"COLLISION",
                  "visible":true,
-                 "width":128,
-                 "x":1056,
-                 "y":128
+                 "width":1160,
+                 "x":568,
+                 "y":352
+                }, 
+                {
+                 "height":160,
+                 "id":100,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":1160,
+                 "x":568,
+                 "y":0
+                }, 
+                {
+                 "height":96,
+                 "id":101,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":440,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "height":0,
+                 "id":102,
+                 "name":"collision",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":128,
+                         "y":-64
+                        }, 
+                        {
+                         "x":128,
+                         "y":96
+                        }, 
+                        {
+                         "x":0,
+                         "y":96
+                        }],
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":0,
+                 "x":440,
+                 "y":416
+                }, 
+                {
+                 "height":0,
+                 "id":103,
+                 "name":"collision",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":128,
+                         "y":64
+                        }, 
+                        {
+                         "x":128,
+                         "y":-96
+                        }, 
+                        {
+                         "x":0,
+                         "y":-96
+                        }],
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":0,
+                 "x":440,
+                 "y":96
                 }, 
                 {
                  "height":32,
-                 "id":96,
+                 "id":104,
                  "name":"fatal",
                  "rotation":0,
                  "type":"FATAL",
                  "visible":true,
-                 "width":128,
-                 "x":1056,
+                 "width":64,
+                 "x":704,
+                 "y":336
+                }, 
+                {
+                 "height":32,
+                 "id":105,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":64,
+                 "x":1152,
+                 "y":336
+                }, 
+                {
+                 "height":0,
+                 "id":106,
+                 "name":"finish_bar2",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Index",
+                         "type":"string",
+                         "value":"end"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"FINISHPAIR"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1408,
                  "y":352
+                }, 
+                {
+                 "height":0,
+                 "id":107,
+                 "name":"finish_bar1",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"EndName",
+                         "type":"string",
+                         "value":"finish_bar2"
+                        }, 
+                        {
+                         "name":"Index",
+                         "type":"string",
+                         "value":"start"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"FINISHPAIR"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1408,
+                 "y":160
+                }, 
+                {
+                 "height":64,
+                 "id":108,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":128,
+                 "x":192,
+                 "y":96
+                }, 
+                {
+                 "height":160,
+                 "id":109,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"COLLISION",
+                 "visible":true,
+                 "width":128,
+                 "x":192,
+                 "y":256
+                }, 
+                {
+                 "height":0,
+                 "id":110,
+                 "name":"star",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"STAR"
+                        }],
+                 "rotation":0,
+                 "type":"PICKUP",
+                 "visible":true,
+                 "width":0,
+                 "x":512,
+                 "y":256
+                }, 
+                {
+                 "height":0,
+                 "id":111,
+                 "name":"star",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"STAR"
+                        }],
+                 "rotation":0,
+                 "type":"PICKUP",
+                 "visible":true,
+                 "width":0,
+                 "x":848,
+                 "y":256
+                }, 
+                {
+                 "height":0,
+                 "id":112,
+                 "name":"star",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"STAR"
+                        }],
+                 "rotation":0,
+                 "type":"PICKUP",
+                 "visible":true,
+                 "width":0,
+                 "x":1072,
+                 "y":256
+                }, 
+                {
+                 "height":0,
+                 "id":114,
+                 "name":"cloud",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloud"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":536,
+                 "y":345
+                }, 
+                {
+                 "height":0,
+                 "id":115,
+                 "name":"cloud_box",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloudbox"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":456,
+                 "y":320
+                }, 
+                {
+                 "height":0,
+                 "id":116,
+                 "name":"cloud",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloud"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1152,
+                 "y":240
+                }, 
+                {
+                 "height":0,
+                 "id":117,
+                 "name":"cloud_box",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"Texture",
+                         "type":"string",
+                         "value":"cloudbox"
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"CLOUD"
+                        }],
+                 "rotation":0,
+                 "type":"DECORATION",
+                 "visible":true,
+                 "width":0,
+                 "x":1232,
+                 "y":260
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -334,7 +417,7 @@
          "y":0
         }],
  "nextlayerid":5,
- "nextobjectid":97,
+ "nextobjectid":118,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
