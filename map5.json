@@ -83,9 +83,9 @@
                  "rotation":0,
                  "type":"FATAL",
                  "visible":true,
-                 "width":64,
-                 "x":1184,
-                 "y":384
+                 "width":80,
+                 "x":1160,
+                 "y":392
                 }, 
                 {
                  "height":96,
@@ -105,9 +105,9 @@
                  "rotation":0,
                  "type":"FATAL",
                  "visible":true,
-                 "width":64,
-                 "x":992,
-                 "y":432
+                 "width":56,
+                 "x":1000,
+                 "y":440
                 }, 
                 {
                  "height":192,
@@ -141,7 +141,7 @@
                  "visible":true,
                  "width":0,
                  "x":1568,
-                 "y":608
+                 "y":596
                 }, 
                 {
                  "height":0,
@@ -169,7 +169,7 @@
                  "visible":true,
                  "width":0,
                  "x":1568,
-                 "y":416
+                 "y":426
                 }, 
                 {
                  "height":288,
@@ -183,7 +183,7 @@
                  "y":128
                 }, 
                 {
-                 "height":416,
+                 "height":288,
                  "id":136,
                  "name":"collision",
                  "rotation":0,
@@ -194,7 +194,7 @@
                  "y":608
                 }, 
                 {
-                 "height":320,
+                 "height":288,
                  "id":137,
                  "name":"collision",
                  "rotation":0,
@@ -202,7 +202,7 @@
                  "visible":true,
                  "width":352,
                  "x":448,
-                 "y":96
+                 "y":128
                 }, 
                 {
                  "height":96,
@@ -227,7 +227,7 @@
                  "y":128
                 }, 
                 {
-                 "height":704,
+                 "height":640,
                  "id":140,
                  "name":"camera1",
                  "properties":[
@@ -240,8 +240,8 @@
                  "type":"CAMERAZONE",
                  "visible":true,
                  "width":1160,
-                 "x":640,
-                 "y":160
+                 "x":648,
+                 "y":192
                 }, 
                 {
                  "height":0,
@@ -355,8 +355,8 @@
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":64,
-                 "x":416,
+                 "width":32,
+                 "x":448,
                  "y":416
                 }, 
                 {
@@ -426,7 +426,7 @@
                  "visible":true,
                  "width":0,
                  "x":1664,
-                 "y":544
+                 "y":568
                 }, 
                 {
                  "height":0,
@@ -449,7 +449,7 @@
                  "visible":true,
                  "width":0,
                  "x":1728,
-                 "y":516
+                 "y":540
                 }, 
                 {
                  "ellipse":true,
@@ -514,8 +514,20 @@
          "visible":true,
          "x":0,
          "y":0
+        }, 
+        {
+         "id":5,
+         "image":"..\/maps-source\/map5.png",
+         "imageheight":1024,
+         "imagewidth":2048,
+         "name":"Image Layer 1",
+         "opacity":1,
+         "type":"imagelayer",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":5,
+ "nextlayerid":6,
  "nextobjectid":158,
  "orientation":"orthogonal",
  "renderorder":"right-down",

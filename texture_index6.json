@@ -1,6 +1,6 @@
 {
-    "tile_width": 8,
-    "tile_height": 4,
+    "tile_width": 9,
+    "tile_height": 2,
     "tiles": [
         {
             "original_position": [
@@ -148,8 +148,8 @@
         },
         {
             "original_position": [
-                0,
-                256
+                2048,
+                0
             ],
             "cropped_size": [
                 256,
@@ -166,7 +166,7 @@
         },
         {
             "original_position": [
-                256,
+                0,
                 256
             ],
             "cropped_size": [
@@ -184,7 +184,7 @@
         },
         {
             "original_position": [
-                512,
+                256,
                 256
             ],
             "cropped_size": [
@@ -202,7 +202,7 @@
         },
         {
             "original_position": [
-                768,
+                512,
                 256
             ],
             "cropped_size": [
@@ -220,7 +220,7 @@
         },
         {
             "original_position": [
-                1024,
+                768,
                 256
             ],
             "cropped_size": [
@@ -238,7 +238,7 @@
         },
         {
             "original_position": [
-                1280,
+                1024,
                 256
             ],
             "cropped_size": [
@@ -256,7 +256,7 @@
         },
         {
             "original_position": [
-                1536,
+                1280,
                 256
             ],
             "cropped_size": [
@@ -274,7 +274,7 @@
         },
         {
             "original_position": [
-                1792,
+                1536,
                 256
             ],
             "cropped_size": [
@@ -292,8 +292,8 @@
         },
         {
             "original_position": [
-                0,
-                512
+                1792,
+                256
             ],
             "cropped_size": [
                 256,
@@ -310,8 +310,8 @@
         },
         {
             "original_position": [
-                256,
-                512
+                2048,
+                256
             ],
             "cropped_size": [
                 256,
@@ -324,258 +324,6 @@
             "texture_position": [
                 1302,
                 262
-            ]
-        },
-        {
-            "original_position": [
-                512,
-                512
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                1562,
-                262
-            ]
-        },
-        {
-            "original_position": [
-                768,
-                512
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                262,
-                522
-            ]
-        },
-        {
-            "original_position": [
-                1024,
-                512
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                262,
-                782
-            ]
-        },
-        {
-            "original_position": [
-                1280,
-                512
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                262,
-                1042
-            ]
-        },
-        {
-            "original_position": [
-                1536,
-                512
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                262,
-                1302
-            ]
-        },
-        {
-            "original_position": [
-                1792,
-                512
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                262,
-                1562
-            ]
-        },
-        {
-            "original_position": [
-                0,
-                768
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                522,
-                522
-            ]
-        },
-        {
-            "original_position": [
-                256,
-                768
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                782,
-                522
-            ]
-        },
-        {
-            "original_position": [
-                512,
-                768
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                1042,
-                522
-            ]
-        },
-        {
-            "original_position": [
-                768,
-                768
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                1302,
-                522
-            ]
-        },
-        {
-            "original_position": [
-                1024,
-                768
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                1562,
-                522
-            ]
-        },
-        {
-            "original_position": [
-                1280,
-                768
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                522,
-                782
-            ]
-        },
-        {
-            "original_position": [
-                1536,
-                768
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                522,
-                1042
-            ]
-        },
-        {
-            "original_position": [
-                1792,
-                768
-            ],
-            "cropped_size": [
-                256,
-                256
-            ],
-            "offset": [
-                0,
-                0
-            ],
-            "texture_position": [
-                522,
-                1302
             ]
         }
     ]

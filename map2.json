@@ -25,7 +25,7 @@
                  "type":"ZONE",
                  "visible":true,
                  "width":64,
-                 "x":1696,
+                 "x":1840,
                  "y":384
                 }, 
                 {
@@ -71,8 +71,8 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1696,
-                 "y":544
+                 "x":1846,
+                 "y":532
                 }, 
                 {
                  "height":0,
@@ -99,8 +99,8 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1696,
-                 "y":384
+                 "x":1846,
+                 "y":396
                 }, 
                 {
                  "height":1024,
@@ -312,7 +312,7 @@
                  "rotation":0,
                  "type":"CAMERAZONE",
                  "visible":true,
-                 "width":864,
+                 "width":792,
                  "x":64,
                  "y":352
                 }, 
@@ -329,8 +329,8 @@
                  "rotation":0,
                  "type":"CAMERAZONE",
                  "visible":true,
-                 "width":1072,
-                 "x":944,
+                 "width":632,
+                 "x":912,
                  "y":224
                 }, 
                 {
@@ -568,6 +568,23 @@
                  "width":0,
                  "x":1200,
                  "y":656
+                }, 
+                {
+                 "height":448,
+                 "id":131,
+                 "name":"camera1",
+                 "properties":[
+                        {
+                         "name":"Axis",
+                         "type":"string",
+                         "value":"vertical"
+                        }],
+                 "rotation":0,
+                 "type":"CAMERAZONE",
+                 "visible":true,
+                 "width":720,
+                 "x":1600,
+                 "y":232
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -576,7 +593,7 @@
          "y":0
         }],
  "nextlayerid":7,
- "nextobjectid":131,
+ "nextobjectid":132,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",

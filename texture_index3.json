@@ -1,5 +1,5 @@
 {
-    "tile_width": 7,
+    "tile_width": 8,
     "tile_height": 2,
     "tiles": [
         {
@@ -130,8 +130,8 @@
         },
         {
             "original_position": [
-                0,
-                256
+                1792,
+                0
             ],
             "cropped_size": [
                 256,
@@ -148,7 +148,7 @@
         },
         {
             "original_position": [
-                256,
+                0,
                 256
             ],
             "cropped_size": [
@@ -166,7 +166,7 @@
         },
         {
             "original_position": [
-                512,
+                256,
                 256
             ],
             "cropped_size": [
@@ -184,7 +184,7 @@
         },
         {
             "original_position": [
-                768,
+                512,
                 256
             ],
             "cropped_size": [
@@ -202,7 +202,7 @@
         },
         {
             "original_position": [
-                1024,
+                768,
                 256
             ],
             "cropped_size": [
@@ -220,7 +220,7 @@
         },
         {
             "original_position": [
-                1280,
+                1024,
                 256
             ],
             "cropped_size": [
@@ -238,7 +238,7 @@
         },
         {
             "original_position": [
-                1536,
+                1280,
                 256
             ],
             "cropped_size": [
@@ -251,6 +251,42 @@
             ],
             "texture_position": [
                 262,
+                262
+            ]
+        },
+        {
+            "original_position": [
+                1536,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                522,
+                262
+            ]
+        },
+        {
+            "original_position": [
+                1792,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                782,
                 262
             ]
         }

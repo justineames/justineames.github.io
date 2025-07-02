@@ -297,7 +297,7 @@
                  "type":"ZONE",
                  "visible":true,
                  "width":107,
-                 "x":1312,
+                 "x":1458,
                  "y":480
                 }, 
                 {
@@ -320,8 +320,8 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1312,
-                 "y":672
+                 "x":1458,
+                 "y":659
                 }, 
                 {
                  "height":0,
@@ -348,8 +348,8 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1312,
-                 "y":480
+                 "x":1458,
+                 "y":493
                 }, 
                 {
                  "height":0,

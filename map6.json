@@ -31,7 +31,7 @@
                  "type":"CAMERAZONE",
                  "visible":true,
                  "width":1920,
-                 "x":0,
+                 "x":8,
                  "y":64
                 }, 
                 {
@@ -110,8 +110,8 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1952,
-                 "y":256
+                 "x":1956,
+                 "y":244
                 }, 
                 {
                  "height":0,
@@ -138,8 +138,8 @@
                  "type":"DECORATION",
                  "visible":true,
                  "width":0,
-                 "x":1952,
-                 "y":128
+                 "x":1956,
+                 "y":140
                 }, 
                 {
                  "height":64,
@@ -294,7 +294,7 @@
                  "y":128
                 }, 
                 {
-                 "height":64,
+                 "height":62,
                  "id":154,
                  "name":"fatal",
                  "rotation":0,
@@ -302,7 +302,7 @@
                  "visible":true,
                  "width":32,
                  "x":992,
-                 "y":320
+                 "y":322
                 }, 
                 {
                  "height":32,
@@ -543,8 +543,8 @@
                  "type":"ENEMY",
                  "visible":true,
                  "width":0,
-                 "x":864,
-                 "y":192
+                 "x":880,
+                 "y":176
                 }, 
                 {
                  "height":160,
@@ -564,8 +564,8 @@
                  "rotation":0,
                  "type":"FATAL",
                  "visible":true,
-                 "width":36,
-                 "x":1568,
+                 "width":80,
+                 "x":1576,
                  "y":96
                 }, 
                 {
