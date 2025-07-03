@@ -1,10 +1,13 @@
-{ "compressionlevel":-1,
+{ "backgroundcolor":"#64c8ff",
+ "compressionlevel":-1,
  "height":32,
  "infinite":false,
  "layers":[
         {
          "id":6,
          "image":"..\/maps-source\/map1.png",
+         "imageheight":1024,
+         "imagewidth":2048,
          "name":"Image Layer 1",
          "opacity":0.59,
          "type":"imagelayer",

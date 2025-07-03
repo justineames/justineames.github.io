@@ -1,14 +1,17 @@
-{ "compressionlevel":-1,
+{ "backgroundcolor":"#64c8ff",
+ "compressionlevel":-1,
  "height":16,
  "infinite":false,
  "layers":[
         {
-         "id":6,
-         "image":"..\/maps-source\/map1.png",
+         "id":7,
+         "image":"..\/maps-source\/inkscape\/map6.png",
+         "imageheight":512,
+         "imagewidth":2304,
          "name":"Image Layer 1",
-         "opacity":0.59,
+         "opacity":1,
          "type":"imagelayer",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -239,7 +242,7 @@
                  "y":784
                 }, 
                 {
-                 "height":32,
+                 "height":64,
                  "id":144,
                  "name":"fatal",
                  "rotation":0,
@@ -247,7 +250,7 @@
                  "visible":true,
                  "width":128,
                  "x":128,
-                 "y":352
+                 "y":320
                 }, 
                 {
                  "height":32,
@@ -455,8 +458,8 @@
                  "type":"PATH",
                  "visible":true,
                  "width":0,
-                 "x":1392,
-                 "y":192
+                 "x":1399,
+                 "y":216
                 }, 
                 {
                  "height":0,
@@ -502,25 +505,25 @@
                  "y":536
                 }, 
                 {
-                 "height":160,
+                 "height":158.330869378607,
                  "id":171,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":24,
-                 "x":1380,
-                 "y":256
+                 "width":37.3530449711477,
+                 "x":1380.23844723163,
+                 "y":256.669130621393
                 }, 
                 {
-                 "height":32,
+                 "height":33.4306833897658,
                  "id":172,
                  "name":"fatal",
                  "rotation":0,
                  "type":"FATAL",
                  "visible":true,
-                 "width":96,
-                 "x":1344,
+                 "width":101.00739186418,
+                 "x":1348.53049740093,
                  "y":384
                 }, 
                 {
@@ -547,26 +550,26 @@
                  "y":176
                 }, 
                 {
-                 "height":160,
+                 "height":162.146025084649,
                  "id":174,
                  "name":"collision",
                  "rotation":0,
                  "type":"COLLISION",
                  "visible":true,
-                 "width":24,
-                 "x":1604,
-                 "y":96
+                 "width":37.5767084744145,
+                 "x":1603.85397491535,
+                 "y":94
                 }, 
                 {
-                 "height":64,
+                 "height":65.9075778530211,
                  "id":175,
                  "name":"fatal",
                  "rotation":0,
                  "type":"FATAL",
                  "visible":true,
-                 "width":80,
-                 "x":1576,
-                 "y":96
+                 "width":33.4306833897658,
+                 "x":1572.56931661023,
+                 "y":95
                 }, 
                 {
                  "height":0,
@@ -628,8 +631,8 @@
                  "type":"PATH",
                  "visible":true,
                  "width":0,
-                 "x":1616,
-                 "y":320
+                 "x":1624,
+                 "y":296
                 }, 
                 {
                  "height":32,
@@ -717,7 +720,7 @@
                  "visible":true,
                  "width":68,
                  "x":1628,
-                 "y":96
+                 "y":94
                 }, 
                 {
                  "height":0,
@@ -928,6 +931,17 @@
                  "width":0,
                  "x":1952,
                  "y":328
+                }, 
+                {
+                 "height":50,
+                 "id":198,
+                 "name":"fatal",
+                 "rotation":0,
+                 "type":"FATAL",
+                 "visible":true,
+                 "width":23.7615527683724,
+                 "x":1640,
+                 "y":126
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -935,8 +949,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":7,
- "nextobjectid":198,
+ "nextlayerid":8,
+ "nextobjectid":199,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",

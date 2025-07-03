@@ -1,0 +1,582 @@
+{
+    "tile_width": 8,
+    "tile_height": 4,
+    "tiles": [
+        {
+            "original_position": [
+                0,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                2,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                256,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                262,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                512,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                522,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                768,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                782,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                1024,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1042,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                1280,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1302,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                1536,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1562,
+                2
+            ]
+        },
+        {
+            "original_position": [
+                1792,
+                0
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                2,
+                262
+            ]
+        },
+        {
+            "original_position": [
+                0,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                2,
+                522
+            ]
+        },
+        {
+            "original_position": [
+                256,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                2,
+                782
+            ]
+        },
+        {
+            "original_position": [
+                512,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                2,
+                1042
+            ]
+        },
+        {
+            "original_position": [
+                768,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                2,
+                1302
+            ]
+        },
+        {
+            "original_position": [
+                1024,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                2,
+                1562
+            ]
+        },
+        {
+            "original_position": [
+                1280,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                262,
+                262
+            ]
+        },
+        {
+            "original_position": [
+                1536,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                522,
+                262
+            ]
+        },
+        {
+            "original_position": [
+                1792,
+                256
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                782,
+                262
+            ]
+        },
+        {
+            "original_position": [
+                0,
+                512
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1042,
+                262
+            ]
+        },
+        {
+            "original_position": [
+                256,
+                512
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1302,
+                262
+            ]
+        },
+        {
+            "original_position": [
+                512,
+                512
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1562,
+                262
+            ]
+        },
+        {
+            "original_position": [
+                768,
+                512
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                262,
+                522
+            ]
+        },
+        {
+            "original_position": [
+                1024,
+                512
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                262,
+                782
+            ]
+        },
+        {
+            "original_position": [
+                1280,
+                512
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                262,
+                1042
+            ]
+        },
+        {
+            "original_position": [
+                1536,
+                512
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                262,
+                1302
+            ]
+        },
+        {
+            "original_position": [
+                1792,
+                512
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                262,
+                1562
+            ]
+        },
+        {
+            "original_position": [
+                0,
+                768
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                522,
+                522
+            ]
+        },
+        {
+            "original_position": [
+                256,
+                768
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                782,
+                522
+            ]
+        },
+        {
+            "original_position": [
+                512,
+                768
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1042,
+                522
+            ]
+        },
+        {
+            "original_position": [
+                768,
+                768
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1302,
+                522
+            ]
+        },
+        {
+            "original_position": [
+                1024,
+                768
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                1562,
+                522
+            ]
+        },
+        {
+            "original_position": [
+                1280,
+                768
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                522,
+                782
+            ]
+        },
+        {
+            "original_position": [
+                1536,
+                768
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                522,
+                1042
+            ]
+        },
+        {
+            "original_position": [
+                1792,
+                768
+            ],
+            "cropped_size": [
+                256,
+                256
+            ],
+            "offset": [
+                0,
+                0
+            ],
+            "texture_position": [
+                522,
+                1302
+            ]
+        }
+    ]
+}
