@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>Rocket Tap Up Game embed</title>
+  <title>Rocket Tap Up Preview</title>
   <style>
     * {
       margin: 0;
@@ -25,19 +25,17 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
+      padding: 12px;
     }
 
     iframe {
       width: 960px;
       height: 540px;
+      max-width: 100%;
+      max-height: calc(100vh - 60px);
       border: none;
       background: black;
-      touch-action: manipulation;
-      -webkit-user-select: none;
-      -webkit-touch-callout: none;
-      user-select: none;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-      transition: all 0.3s ease;
     }
 
     #fullscreen-toggle {
@@ -52,36 +50,38 @@
 
     .fullscreen iframe {
       width: 100vw;
-      height: calc(100vh - 60px); /* simulate Poki menu */
+      height: calc(100vh - 60px);
+      max-width: none;
+      max-height: none;
     }
   </style>
 </head>
 <body>
   <div id="wrapper">
-    <iframe src="/index.html" id="game-frame" allowfullscreen></iframe>
+    <iframe src="./game.html" id="game-frame" allowfullscreen></iframe>
     <button id="fullscreen-toggle">Toggle Fullscreen</button>
   </div>
 
   <script>
-    const wrapper = document.getElementById('wrapper')
-    const toggleBtn = document.getElementById('fullscreen-toggle')
-    const gameFrame = document.getElementById('game-frame')
+    const wrapper = document.getElementById('wrapper');
+    const toggleBtn = document.getElementById('fullscreen-toggle');
+    const gameFrame = document.getElementById('game-frame');
 
-    // Toggle fullscreen mode
-    toggleBtn.addEventListener('click', () => {
-      wrapper.classList.toggle('fullscreen')
-      gameFrame.contentWindow?.focus()
-    })
+    toggleBtn.addEventListener('click', () =>
+    {
+      wrapper.classList.toggle('fullscreen');
+      gameFrame.contentWindow?.focus();
+    });
 
-    // Autofocus when iframe loads
-    gameFrame.addEventListener('load', () => {
-      gameFrame.contentWindow?.focus()
-    })
+    gameFrame.addEventListener('load', () =>
+    {
+      gameFrame.contentWindow?.focus();
+    });
 
-    // Extra: focus iframe on any click in wrapper
-    wrapper.addEventListener('click', () => {
-      gameFrame.contentWindow?.focus()
-    })
+    wrapper.addEventListener('click', () =>
+    {
+      gameFrame.contentWindow?.focus();
+    });
   </script>
 </body>
 </html>
